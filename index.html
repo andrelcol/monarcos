@@ -34,6 +34,11 @@
 				div.style.top = Math.floor(Math.random() * height) + "px";
 				document.body.appendChild(div);
 			}
+
+			// aguardar 5 segundos e recarregar a página
+			setTimeout(function() {
+				location.reload();
+			}, 5000);
 		}
 	</script>
 </body>
